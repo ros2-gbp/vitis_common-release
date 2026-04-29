@@ -1,0 +1,12 @@
+Source: ros-lyrical-vitis-common
+Section: misc
+Priority: optional
+Maintainer: Víctor Mayoral-Vilches <victor@accelerationrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ocl-icd-opencl-dev, opencl-headers, ros-lyrical-ament-cmake, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-ament-vitis, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/vitis_common/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-vitis-common
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-ros-workspace
+Description: Common code for working with Vitis™ Unified Software Platform in ROS.
